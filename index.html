@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>y86-64 Simulator</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
@@ -226,6 +226,7 @@ stack:
         </div>
     </script>
 
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="js/external/jquery.min.js"></script>
     <script src="js/underscore.js"></script>
     <script src="js/external/backbone-min.js"></script>
@@ -245,6 +246,7 @@ stack:
     <script src="js/views/memory.js"></script>
     <script src="js/views/registers.js"></script>
     <script src="js/views/objcode.js"></script>
+    <script>if (window.module) module = window.module;</script>
 
     <script>
         $(function () {

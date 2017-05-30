@@ -1,0 +1,23 @@
+{
+  "name": "js-y86-64",
+  "productName": "Javascript Y86-64 Simulator",
+  "version": "0.0.1",
+  "description": "y86-64 simulator and assembler written in Javascript.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --high-dpi-support=1",
+    "pack": "electron-packager . --asar.unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --out=out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boginw/js-y86-64"
+  },
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.1"
+  },
+  "dependencies": {
+    "electron-window-state": "^4.0.1",
+    "font-awesome": "^4.7.0"
+  }
+}
