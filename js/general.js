@@ -39,8 +39,8 @@ var INSTRUCTION_LEN = [
 		'nop': 1,		//  1
 
 		'rrmovq': 2,    //  2
-		'cmovqe': 2,    //  3
-		'cmovq': 2,     //  4
+		'cmovle': 2,    //  3
+		'cmovl': 2,     //  4
 		'cmove': 2,     //  5
 		'cmovne': 2,    //  6
 		'cmovge': 2,    //  7
@@ -88,8 +88,8 @@ var INSTRUCTION_LEN = [
 		'xorq': 3,      //  3
 
 		'rrmovq': 0,    //  4
-		'cmovqe': 1,    //  5
-		'cmovq': 2,     //  6
+		'cmovle': 1,    //  5
+		'cmovl': 2,     //  6
 		'cmove': 3,     //  7
 		'cmovne': 4,    //  8
 		'cmovge': 5,    //  9
