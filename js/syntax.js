@@ -5,7 +5,7 @@ SYNTAX['nop'] = [];
 
 SYNTAX['rrmovq'] = ['rA', 'rB'];
 SYNTAX['cmovle'] = ['rA', 'rB'];
-SYNTAX['cmovq'] = ['rA', 'rB'];
+SYNTAX['cmovl'] = ['rA', 'rB'];
 SYNTAX['cmove'] = ['rA', 'rB'];
 SYNTAX['cmovne'] = ['rA', 'rB'];
 SYNTAX['cmovge'] = ['rA', 'rB'];
